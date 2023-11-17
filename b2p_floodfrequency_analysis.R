@@ -5,7 +5,7 @@
 library(timeSeries)
 library(hydroTSM)
 
-setwd("C:/Users/demu4180/MCGE Dropbox/Denis Muthike/B2P/ML/discharge/predicted/final")
+setwd("./ML/discharge/predicted/final")
 Q_fdc<-read.csv("./RF_predictedQ_forFDC.csv")
 
 Qfdc.ts<-ts(Q_fdc)
